@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  color: #40514e;
+  background-color: #efedf2;
+}
+
+h1 {
+
+  font-family: 'Kaushan Script', cursive;
+  color: #EF426F;
+  font-size: 2.5em;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  padding: 30px;
+}
+
+.navbar{
+  background-color: #fff;
+  padding: 20px;
+}
+
+#navigation a{
+  display: block;
+  font-family: 'PT Serif', serif;
+  color: #003260;
+  font-size: 1.1em;
+  padding: 10px;
+  text-decoration: none;
+}
