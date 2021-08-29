@@ -102,21 +102,21 @@ p {
   max-height: 100%;
   opacity: 0.8;
   height: 100vh;
-  padding-top: 50px;
+  padding: 50px;
 }
 
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
   .img-fluid {
     background-image: url("../images/home-portrait.jpg");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #eaf6f6;
     background-attachment: fixed;
-    width: 100%;
+    width: auto;
     height: 100%
     opacity: 0.8;
-    padding-top: 50px;
+    padding: 50px;
   }
 }
 
@@ -124,14 +124,14 @@ p {
 @media screen and (max-width: 600px) {
   .img-fluid {
     background-image: url("../images/home-portrait.jpg");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #eaf6f6;
     background-attachment: fixed;
-    width: 100%;
+    width: auto;
     height: 100%
     opacity: 0.8;
-    padding-top: 50px;
+    padding: 50px;
   }
 }
 
