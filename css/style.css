@@ -105,31 +105,17 @@ p {
   padding: 50px;
 }
 
-/* On screens that are 992px wide or less, the background color is blue */
-@media screen and (max-width: 992px) {
-  .img-fluid {
-    background-image: url("../images/home-portrait.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #eaf6f6;
-    background-attachment: fixed;
-    width: auto;
-    height: 100%
-    opacity: 0.8;
-    padding: 50px;
-  }
-}
 
 /* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 828px) {
   .img-fluid {
     background-image: url("../images/home-portrait.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #eaf6f6;
     background-attachment: fixed;
-    width: auto;
-    height: 100%
+    width: 828px;
+    height: 1792px;
     opacity: 0.8;
     padding: 50px;
   }
