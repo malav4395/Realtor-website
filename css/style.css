@@ -106,14 +106,12 @@ p {
 }
 
 
-/* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 828px) {
   .img-fluid {
-    background-image: url("../images/home-portrait.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #eaf6f6;
-    
     opacity: 0.8;
     padding: 50px;
   }
