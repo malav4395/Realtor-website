@@ -113,11 +113,9 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #eaf6f6;
-    background-attachment: fixed;
-    width: 828px;
-    height: 1792px;
+    
     opacity: 0.8;
-    padding-top: 50px;
+    padding: 50px;
   }
 }
 
