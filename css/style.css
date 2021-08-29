@@ -109,7 +109,7 @@ p {
 @media screen and (max-width: 992px) {
   .img-fluid {
     background-image: url("../images/home-portrait.jpg");
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-color: #eaf6f6;
     background-attachment: fixed;
@@ -124,7 +124,7 @@ p {
 @media screen and (max-width: 600px) {
   .img-fluid {
     background-image: url("../images/home-portrait.jpg");
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-color: #eaf6f6;
     background-attachment: fixed;
