@@ -99,18 +99,14 @@ p {
   background-attachment: fixed;
   background-size: cover;
   opacity: 0.8;
-  max-width: auto;
+  max-width: 100%;
   max-height: auto;
+  width: auto;
   position: relative;
   padding-top: 50px;
   padding-bottom: 400px;
 }
 
-@media screen and (max-width: 480px) {
-    .img-fluid {
-         width: 480px;
-    }
-}
 
 #instagram{
   font-family: 'PT Serif', serif;
