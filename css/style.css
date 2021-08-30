@@ -128,7 +128,9 @@ a:hover {
     height: 60vh;
     transform: perspective(50%);
   }
-
+  .value-pic{
+    width: 100vw;
+  }
 
 }
 
@@ -177,9 +179,7 @@ a:hover {
   text-align: justify;
 }
 
-.value-pic{
-  width: 100vw;
-}
+
 
 .value-heading {
   padding-top: 50px;
