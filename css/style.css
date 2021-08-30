@@ -94,13 +94,9 @@ a:hover {
   color: #fff;
   font-size: 4vw;
   background: rgb(1, 1, 1);
-  /* Fallback color */
   background: rgba(0, 0, 0, 0.2);
-  /* Black background with 0.5 opacity */
-  width: 35%;
-  /* Full width */
+  width: 45%;
   padding: 10px;
-  /* Some padding */
   text-shadow: 1px 1px 10px #003260, 1px 1px 10px #ccc;
 }
 
@@ -125,12 +121,9 @@ a:hover {
 @media screen and (max-width: 828px) {
   .img-fluid {
     background-image: url("../images/home-portrait.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #eaf6f6;
     opacity: 0.8;
-    height: 100vh;
-    transform: translateX(-50%);
+    height: 60vh;
+    width: 100%;
   }
 }
 
