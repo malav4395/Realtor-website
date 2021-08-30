@@ -88,6 +88,7 @@ a:hover {
   text-align: justify;
   margin-top: 1.5rem;
   font-weight:500;
+  padding: 0px 8px 0px 8px;
 }
 
 
@@ -178,8 +179,7 @@ a:hover {
   background-repeat: no-repeat;
   background-color: #eaf6f6;
   background-size: cover;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0px 50px 0px;
 }
 
 
