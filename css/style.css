@@ -177,7 +177,9 @@ a:hover {
   text-align: justify;
 }
 
-
+.value-pic{
+  width: 100vw;
+}
 
 .value-heading {
   padding-top: 50px;
