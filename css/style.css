@@ -1,3 +1,19 @@
+/*
+//////////////////////////////////////////////////////////////////////////
+/
+/   Real Estate by Malav -  Style.css
+/   developed by Malav Panchal
+/   realtor.malav@gmail.com
+/
+/  This CSS file is being used by all the pages-
+/  Home, About, Services, Contact
+/
+//////////////////////////////////////////////////////////////////////////
+*/
+
+
+/* ------------------Home page Elements------------------------- */
+
 body {
   margin: 0;
   text-align: center;
@@ -8,6 +24,105 @@ body {
 h1 {
   font-family: 'Kaushan Script', cursive;
   color: #003260;
+}
+
+h2 {
+  font-family: 'PT Serif', serif;
+  color: #003260;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  color: #003260;
+  font-size: 1.5rem;
+}
+
+a {
+  font-family: 'PT Serif', serif;
+  color: #003260;
+  font-size: 1.1em;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.middle-container {
+  background-image: url("../images/wall.jpg");
+  background-repeat: no-repeat;
+  background-color: #eaf6f6;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+
+/* ------------------Home page Elements------------------------- */
+
+.contact-me-container {
+  padding: 30px;
+}
+
+.index-meet-text {
+  font-size: 1.8em;
+  width: 100%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.img-banner-fluid {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #eaf6f6;
+  background-attachment: fixed;
+  max-width: 100%;
+  max-height: 100%;
+  height: 100vh;
+  opacity: 0.8;
+  padding: 50px;
+}
+
+.maintxt {
+  font-family: 'Kaushan Script', cursive;
+  color: #fff;
+  font-size: 4vw;
+  background: rgb(1, 1, 1);
+  background: rgba(0, 0, 0, 0.2);
+  width: 45%;
+  padding: 10px;
+  text-shadow: 1px 1px 10px #003260, 1px 1px 10px #ccc;
+}
+
+.profile {
+  margin: 30px auto;
+}
+
+#address {
+  font-size: 0.9em;
+  text-align: center;
+  padding-right: 30px;
+}
+
+#instagram {
+  font-family: 'PT Serif', serif;
+  display: block;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: left;
+  color: #003260;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 #profile h2 {
@@ -38,48 +153,58 @@ h1 {
   text-decoration: none;
 }
 
-h2 {
-  font-family: 'PT Serif', serif;
-  color: #003260;
-  font-size: 2.2rem;
-  font-weight: bold;
+@media screen and (max-width: 828px) {
+  .img-banner-fluid {
+    height: 70vh;
+    width: 100vw;
+  }
 }
 
-h3 {
-  font-family: 'PT Serif', serif;
-  color: #003260;
-  font-size: 1.5rem;
+.myButton {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Times New Roman;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 17px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
-#navigation a {
-  font-family: 'PT Serif', serif;
-  color: #003260;
-  font-size: 1.1em;
-  padding: 10px;
+.myButton:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   text-decoration: none;
 }
 
-a:hover {
-  opacity: 0.7;
-}
 
-.contact-me-container {
-  padding: 30px;
-}
 
-.index-meet-text {
-  font-size: 1.8em;
-  width: 100%;
-  text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-}
 
-#address {
-  font-size: 0.9em;
-  text-align: center;
-  padding-right: 30px;
-}
+
+/* ------------------About page Elements------------------------- */
 
 .about-text {
   font-size: 1.1em;
@@ -87,79 +212,6 @@ a:hover {
   margin-top: 1.5rem;
   font-weight: 500;
   padding: 0px 8px 0px 8px;
-}
-
-.maintxt {
-  font-family: 'Kaushan Script', cursive;
-  color: #fff;
-  font-size: 4vw;
-  background: rgb(1, 1, 1);
-  background: rgba(0, 0, 0, 0.2);
-  width: 45%;
-  padding: 10px;
-  text-shadow: 1px 1px 10px #003260, 1px 1px 10px #ccc;
-}
-
-.container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.img-banner-fluid {
-  background-image: url("../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #eaf6f6;
-  background-attachment: fixed;
-  max-width: 100%;
-  max-height: 100%;
-  height: 100vh;
-  opacity: 0.8;
-  padding: 50px;
-}
-
-@media screen and (max-width: 828px) {
-  .img-banner-fluid {
-    height: 70vh;
-    width: 100vw;
-  }
-
-  .value-pic{
-    width: 100vw;
-  }
-
-}
-
-#instagram {
-  font-family: 'PT Serif', serif;
-  display: block;
-  font-size: 1.5em;
-  width: 100%;
-  text-align: left;
-  color: #003260;
-  text-decoration: none;
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-
-.menu-img {
-  position: absolute;
-  top: 50px;
-  left: 60px;
-  height: 80px;
-  position: fixed;
-}
-
-.menu-img:hover {
-  opacity: 0.7;
-}
-
-.middle-container {
-  background-image: url("../images/wall.jpg");
-  background-repeat: no-repeat;
-  background-color: #eaf6f6;
-  background-size: cover;
-  padding-top: 20px;
 }
 
 .about-page-middle-container {
@@ -176,7 +228,6 @@ a:hover {
 }
 
 
-
 .value-text {
   padding: 30px 40px;
   text-align: justify;
@@ -187,63 +238,34 @@ a:hover {
   padding-top: 80px;
 }
 
+@media screen and (max-width: 828px) {
+  .value-pic{
+    width: 100vw;
+  }
+}
+
+
+
+/* ------------------Services page Elements------------------------- */
+
+
+
+
+
+/* ------------------Contact Us page Elements------------------------- */
+
+
+
+
+
+
+
+/* ---------------------Footer Elements------------------------------- */
+
 .bottom-container {
   background-color: #003260;
   padding-top: 50px;
   padding-bottom: 10px;
-}
-
-.hello-text {
-  width: 30%;
-  margin: auto;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 300px;
-}
-
-.mountain {
-  width: 10%;
-}
-
-.menu {
-  padding-left: 2em;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-}
-
-.automation-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.dev-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
-.skill-img {
-  width: 5em;
-  height: 5.5em;
-  padding: 20px;
-  margin-right: 10px;
-}
-
-.profile {
-  margin: 30px auto;
-}
-
-.lets-talk-text {
-  width: 40%;
-  margin: 40px auto 60px;
 }
 
 .copyright {
@@ -291,44 +313,4 @@ a:hover {
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.myButton {
-  background: #3D94F6;
-  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  color: #FFFFFF;
-  font-family: Times New Roman;
-  font-size: 21px;
-  font-weight: 600;
-  padding: 17px;
-  -webkit-box-shadow: 1px 1px 20px 0 #000000;
-  -moz-box-shadow: 1px 1px 20px 0 #000000;
-  box-shadow: 1px 1px 20px 0 #000000;
-  text-shadow: 1px 1px 20px #000000;
-  border: solid #337FED 1px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-}
-
-.myButton:hover {
-  border: solid #337FED 1px;
-  background: #1E62D0;
-  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
 }
