@@ -120,9 +120,8 @@ a:hover {
 
 @media screen and (max-width: 828px) {
   .img-banner-fluid {
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
-    transform: scale(1) translate(-50%, 0%);
   }
 
   .value-pic{
