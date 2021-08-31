@@ -170,15 +170,21 @@ a:hover {
   padding: 50px 0px 50px 0px;
 }
 
+.about-page-value-container{
+  background-color: #918c8d;
+  color: #fff;
+}
+
+
+
 .value-text {
   padding: 30px 40px;
   text-align: justify;
 }
 
 
-
 .value-heading {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .bottom-container {
