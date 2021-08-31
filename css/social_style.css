@@ -15,9 +15,12 @@ h1 {
   padding: 30px;
 }
 
+.container-fluid {
+    padding: 0px;
+}
 .navbar{
   background-color: #fff;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 #navigation a{
