@@ -122,7 +122,7 @@ a:hover {
   .img-banner-fluid {
     height: 80vh;
     width: 100vw;
-    transform: scale(0.9) translate(0, 0);
+    transform: scale(1) translate(-50%, 0%);
   }
 
   .value-pic{
