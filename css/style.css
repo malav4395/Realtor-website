@@ -90,7 +90,7 @@ a:hover {
 .maintxt {
   font-family: 'Kaushan Script', cursive;
   color: #fff;
-  font-size: 4vw;
+  font-size: 4rem;
   background: rgb(1, 1, 1);
   background: rgba(0, 0, 0, 0.2);
   width: 45%;
@@ -153,6 +153,9 @@ a:hover {
     height: 70vh;
     background-position: 50% 50%;
   }
+  .maintxt {
+    font-size: 3.5rem;
+    width: 70%;
 }
 
 .myButton {
