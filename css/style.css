@@ -48,7 +48,6 @@ a:hover {
   opacity: 0.7;
 }
 
-
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
@@ -272,14 +271,13 @@ a:hover {
   font-family: 'Abril Fatface', cursive;
 }
 
-.services-pic-container{
+.services-pic-container {
   display: block;
   padding: 50px 20px;
   text-align: center;
-
 }
 
-.services-pic-container > .row > .col > p {
+.services-pic-container>.row>.col>p {
   width: 80%;
   margin: auto;
   padding: 10px 0px 80px;
@@ -291,9 +289,36 @@ a:hover {
   padding-top: 5px;
 }
 
-
-
 /* ------------------Contact Us page Elements------------------------- */
+.contact-page-container img {
+  max-width: 15%;
+}
+
+.top-buffer {
+  margin-top: 40px;
+}
+
+.contact-page-container .let-talk-24x7{
+  padding: 50px 20px;
+}
+
+.contact-page-container h3{
+  font-size: 2rem;
+}
+.contact-page-container  .fa {
+  padding: 20px;
+  font-size: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 8px;
+  border-radius: 50%;
+}
+
+.contact-page-middle-container{
+  padding: 30px 20px;
+  background-color: #C0C0C0;
+}
+
 /* ---------------------Footer Elements------------------------------- */
 .bottom-container {
   background-color: #003260;
@@ -327,8 +352,8 @@ a:hover {
   color: white;
 }
 
-.fa-twitter {
-  background: #55ACEE;
+.fa-envelope {
+  background: #4285F4;
   color: white;
 }
 
