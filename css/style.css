@@ -48,6 +48,7 @@ a:hover {
   opacity: 0.7;
 }
 
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
@@ -153,9 +154,11 @@ a:hover {
     height: 70vh;
     background-position: 50% 50%;
   }
+
   .maintxt {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     width: 70%;
+  }
 }
 
 .myButton {
@@ -236,41 +239,61 @@ a:hover {
 }
 
 /* ------------------Services page Elements------------------------- */
-.my-mission-container{
+.my-mission-container {
   background-image: url("../images/agreement.jpg");
   background-repeat: no-repeat;
   background-color: #eaf6f6;
   background-size: cover;
+  position: relative;
   width: 100%;
   height: 30vh;
   background-position: 0 50%;
-  -webkit-filter: brightness(50%);
-  -moz-filter: brightness(50%);
-  -o-filter: brightness(50%);
-  -ms-filter: brightness(50%);
-  filter: brightness(50%);
-  filter: brightness(50%);
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+  filter: brightness(80%);
 }
 
-.my-mission-text{
+.my-mission-text {
   position: absolute;
+  filter: brightness(200%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 150%;
   color: #fff;
   font-family: 'Abril Fatface', cursive;
-  filter: none;
 }
 
-.my-mission-text > h2 {
+.my-mission-text>h2 {
   font-size: 2.5rem;
-  color:#fff;
-  filter: none;
+  color: #fff;
+  font-family: 'Abril Fatface', cursive;
 }
+
+.services-pic-container{
+  display: block;
+  padding: 50px 20px;
+  text-align: center;
+
+}
+
+.services-pic-container > .row > .col > p {
+  width: 80%;
+  margin: auto;
+  padding: 10px 0px 80px;
+}
+
+.buy-sell, .lease, .commercial, .invest {
+  max-width: 100%;
+  height: auto;
+  padding-top: 5px;
+}
+
+
 
 /* ------------------Contact Us page Elements------------------------- */
-
 /* ---------------------Footer Elements------------------------------- */
 .bottom-container {
   background-color: #003260;
