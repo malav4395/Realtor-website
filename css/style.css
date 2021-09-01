@@ -10,10 +10,7 @@
 /
 //////////////////////////////////////////////////////////////////////////
 */
-
-
 /* ------------------Home page Elements------------------------- */
-
 body {
   margin: 0;
   text-align: center;
@@ -64,9 +61,7 @@ a:hover {
   padding-top: 20px;
 }
 
-
 /* ------------------Home page Elements------------------------- */
-
 .contact-me-container {
   padding: 30px;
 }
@@ -157,6 +152,7 @@ a:hover {
   .img-banner-fluid {
     height: 70vh;
     width: 100vw;
+    background-position: 50% 50%;
   }
 }
 
@@ -200,12 +196,7 @@ a:hover {
   text-decoration: none;
 }
 
-
-
-
-
 /* ------------------About page Elements------------------------- */
-
 .about-text {
   font-size: 1.1em;
   text-align: justify;
@@ -222,46 +213,63 @@ a:hover {
   padding: 50px 0px 50px 0px;
 }
 
-.about-page-value-container{
+.about-page-value-container {
   background-color: #918c8d;
   color: #fff;
 }
-
 
 .value-text {
   padding: 30px 40px;
   text-align: justify;
 }
 
-
 .value-heading {
   padding-top: 80px;
 }
 
 @media screen and (max-width: 828px) {
-  .value-pic{
+  .value-pic {
     width: 100vw;
   }
 }
 
-
-
 /* ------------------Services page Elements------------------------- */
+.my-mission-container{
+  background-image: url("../images/agreement.jpg");
+  background-repeat: no-repeat;
+  background-color: #eaf6f6;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  background-position: 0 50%;
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+  filter: brightness(50%);
+  filter: brightness(50%);
+}
 
+.my-mission-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150%;
+  color: #fff;
+  font-family: 'Abril Fatface', cursive;
+  filter: none;
+}
 
-
-
+.my-mission-text > h2 {
+  font-size: 2.5rem;
+  color:#fff;
+  filter: none;
+}
 
 /* ------------------Contact Us page Elements------------------------- */
 
-
-
-
-
-
-
 /* ---------------------Footer Elements------------------------------- */
-
 .bottom-container {
   background-color: #003260;
   padding-top: 50px;
