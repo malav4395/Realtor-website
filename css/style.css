@@ -319,6 +319,10 @@ a:hover {
   background-color: #C0C0C0;
 }
 
+.contact-page-container h1 {
+  font-size: 3.5rem;
+}
+
 /* ---------------------Footer Elements------------------------------- */
 .bottom-container {
   background-color: #003260;
