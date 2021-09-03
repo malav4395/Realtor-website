@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding-top: 80px;
   text-align: center;
   font-family: 'PT Serif', serif;
   color: #40514e;
@@ -7,27 +8,103 @@ body {
 }
 
 h1 {
-
   font-family: 'Kaushan Script', cursive;
   color: #003260;
   font-size: 3.5em;
-  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
-  padding: 30px;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  padding: 35px;
 }
 
-.container-fluid {
-    padding: 0px;
+a {
+  font-family: 'PT Serif', serif;
+  color: #003260;
+  font-size: 1.1em;
+  padding: 10px;
+  text-decoration: none;
 }
-.navbar{
+
+a:hover {
+  opacity: 0.7;
+}
+
+.nav-phone {
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+.fixed-top {
   background-color: #fff;
-  padding-bottom: 20px;
 }
 
-#navigation a{
+#navigation a {
   display: block;
   font-family: 'PT Serif', serif;
   color: #003260;
   font-size: 1.1em;
   padding: 10px;
   text-decoration: none;
+}
+
+/* ---------------------Social Media Elements------------------------------- */
+.bottom-container {
+  background-color: #003260;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 30px auto;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.fa {
+  padding: 12px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 8px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 11px 14px;
+}
+
+.fa-envelope {
+  background: #4285F4;
+  color: white;
+}
+
+.fa-mobile {
+  background: #297F87;
+  color: white;
+  font-size: 140%;
+  padding: 11px 14px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+  background: #C13584;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-whatsapp {
+  background: #25d366;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
