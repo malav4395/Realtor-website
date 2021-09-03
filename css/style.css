@@ -274,10 +274,9 @@ a:hover {
   text-align: center;
 }
 
-.services-pic-container>.row>.col>p {
-  width: 80%;
+.services-pic-container p {
   margin: auto;
-  padding: 10px 0px 80px;
+  padding: 10px 0px 60px;
 }
 
 .buy-sell, .lease, .commercial, .invest {
@@ -295,13 +294,19 @@ a:hover {
   margin-top: 40px;
 }
 
-.contact-page-container .let-talk-24x7{
-  padding: 50px 20px;
+.contact-page-container h1 {
+  font-size: 3.5rem;
+  padding-bottom: 20px;
 }
 
 .contact-page-container h3{
   font-size: 2rem;
 }
+
+.contact-page-container .let-talk-24x7{
+  padding: 50px 20px;
+}
+
 .contact-page-container  .fa {
   padding: 18px;
   font-size: 40px;
@@ -316,10 +321,7 @@ a:hover {
   background-color: #C0C0C0;
 }
 
-.contact-page-container h1 {
-  font-size: 3.5rem;
-  padding-bottom: 20px;
-}
+
 
 /* ---------------------Footer Elements------------------------------- */
 .bottom-container {
@@ -337,8 +339,8 @@ a:hover {
 }
 
 .fa {
-  padding: 10px;
-  font-size: 20px;
+  padding: 12px;
+  font-size: 18px;
   text-align: center;
   text-decoration: none;
   margin: 5px 8px;
@@ -352,6 +354,7 @@ a:hover {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  padding: 11px 14px;
 }
 
 .fa-envelope {
@@ -359,9 +362,12 @@ a:hover {
   color: white;
 }
 
-.fa-linkedin {
-  background: #007bb5;
+.fa-mobile {
+  background: #297F87;
   color: white;
+  font-size: 140%;
+  padding: 11px 14px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .fa-instagram {
@@ -371,6 +377,12 @@ a:hover {
 
 .fa-snapchat-ghost {
   background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-whatsapp {
+  background: #25d366;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
