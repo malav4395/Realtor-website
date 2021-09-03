@@ -48,10 +48,7 @@ a:hover {
   opacity: 0.7;
 }
 
-.container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 
 .middle-container {
   background-image: url("../images/wall.jpg");
@@ -132,7 +129,7 @@ a:hover {
   font-family: 'PT Serif', serif;
   font-size: 2em;
   text-align: left;
-  color: #bc2a8d;
+  color: #003260;
   font-weight: bold;
   padding-left: 20px;
 }
