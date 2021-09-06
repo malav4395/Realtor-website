@@ -85,6 +85,7 @@ a:hover {
   background-repeat: no-repeat;
   background-color: #eaf6f6;
   background-attachment: fixed;
+  background-position: center;
   max-width: 100%;
   max-height: auto;
   height: 80vh;
