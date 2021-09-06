@@ -55,7 +55,7 @@ a:hover {
 }
 
 .middle-container {
-  background-image: url("../images/wall.jpg");
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("../images/wall.jpg");
   background-repeat: no-repeat;
   background-color: #eaf6f6;
   background-size: cover;
@@ -215,7 +215,7 @@ a:hover {
 }
 
 .about-page-middle-container {
-  background-image: url("../images/wall.jpg");
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("../images/wall.jpg");
   background-repeat: no-repeat;
   background-color: #eaf6f6;
   background-size: cover;
