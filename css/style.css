@@ -55,7 +55,7 @@ a:hover {
 }
 
 .middle-container {
-  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("../images/wall.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/wall.jpg");
   background-repeat: no-repeat;
   background-color: #eaf6f6;
   background-size: cover;
@@ -216,7 +216,7 @@ a:hover {
 }
 
 .about-page-middle-container {
-  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("../images/wall.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/wall.jpg");
   background-repeat: no-repeat;
   background-color: #eaf6f6;
   background-size: cover;
@@ -245,19 +245,23 @@ a:hover {
 
 /* ------------------Services page Elements------------------------- */
 .my-mission-container {
-  background-image: url("../images/agreement.jpg");
-  background-repeat: no-repeat;
-  background-color: #eaf6f6;
-  background-size: cover;
   position: relative;
+  z-index: 1;
+}
+
+.my-mission-container .my-mission-container-bg {
+  position: static;
+  z-index: -1;
+  background-image: url("../images/agreement.jpg");
+  background-size: cover;
+  background-position: 0 50%;
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  -o-filter: brightness(70%);
+  -ms-filter: brightness(70%);
+  filter: brightness(70%);
   width: 100%;
   height: 30vh;
-  background-position: 0 50%;
-  -webkit-filter: brightness(80%);
-  -moz-filter: brightness(80%);
-  -o-filter: brightness(80%);
-  -ms-filter: brightness(80%);
-  filter: brightness(80%);
 }
 
 .my-mission-text {
@@ -271,7 +275,7 @@ a:hover {
   font-family: 'Abril Fatface', cursive;
 }
 
-.my-mission-text>h2 {
+.my-mission-text h2 {
   font-size: 2.5rem;
   color: #fff;
   font-family: 'Abril Fatface', cursive;
@@ -312,8 +316,8 @@ a:hover {
   font-size: 2rem;
 }
 
-.form-section h2{
-  padding: 20px;
+.contact-page-container .let-talk-24x7 {
+  padding: 50px 20px;
 }
 
 .contact-page-container .fa {
