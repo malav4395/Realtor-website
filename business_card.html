@@ -21,14 +21,17 @@
   </script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
     gtag('config', 'UA-207251914-1');
   </script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Business card | Real Estate by Malav</title>
+  <title>Home | Real Estate by Malav</title>
   <link rel="icon" href="images\Malav.ico">
 
   <!-- Bootstrap 5 CSS link -->
@@ -46,6 +49,7 @@
   <!-- Including CSS file at the bottom so that it takes preceedence over bootstrap styling -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 
 <!--**************************************************** BODY **********************************************************-->
 
@@ -81,81 +85,63 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
 
+
+
+
   <!--**************************************Top Container**************************************************-->
   <div class="top-container">
-
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex justify-content-lg-start ps-4" href="index.html">
+          <img src="images\Malav_Logo.png" alt="logo" style="width:150px;">
+        </a>
+      </div>
+    </nav>
   </div>
+
 
 
   <!--**************************************Middle Container**************************************************-->
-  <div class="contact-page-middle-container">
-
-    <!--**************************************About section Container**************************************************-->
-    <div class="contact-page-container">
-      <div class="row">
-        <div class="col">
-          <h1>Let's Connect</h1>
-        </div>
-      </div>
-
-      <div class="row top-buffer">
-        <div class="col-lg-4">
-          <p><a href="https://goo.gl/maps/vvy8qvX4M38NLnsx6">
-              <img src="images\map.png" alt="map">
-            </a></p>
-          <h2>Our Office</h2>
-          <p><a href="https://goo.gl/maps/vvy8qvX4M38NLnsx6">508 Riverbend Drive Kitchener, ON N2K 3S2</a></p>
-        </div>
-        <div class="col-lg-4">
-          <p><a href="tel:+16477084395">
-              <img src="images\phone.png" alt="map">
-            </a></p>
-          <h2>Phone Number</h2>
-          <p><a href="tel:+16477084395">+1(647)-708-4395</a></p>
-        </div>
-        <div class="col-lg-4">
-          <p><a href="mailto:realtor.malav@gmail.com">
-              <img src="images\email.png" alt="map">
-            </a></p>
-          <h2>Email</h2>
-          <p><a href="mailto:realtor.malav@gmail.com">realtor.malav@gmail.com</a></p>
-        </div>
-      </div>
-
-      <div class="row top-buffer">
-        <div class="col-lg-7 d-flex align-items-center justify-content-center">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11581.201124170786!2d-80.4786241!3d43.4752034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6bf6fc8066fca2dd!2sReal%20Estate%20by%20Malav!5e0!3m2!1sen!2sca!4v1630525120225!5m2!1sen!2sca"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div class="col-lg-4 form-section">
-          <h2>Let's Stay Connected</h2>
-          <form action="https://getform.io/f/73d0fac4-c91c-42ae-bace-18a9a2113612" method="POST">
-            <div class="w-40">
-              <label for="exampleFormControlInput1" class="form-label">Name</label>
-              <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea type="text" name="message" class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Your message..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-lg btn-secondary">Send</button>
-          </form>
-        </div>
-      </div>
-
+  <div class="bc-middle-container">
+    <div class="business-card">
     </div>
+    <div class="save-contact">
+      <a class="btn btn-danger btn-lg col-12" href="https://ovou.com/" role="button">+Add to Contact</a>
+    </div>
+
+    <hr>
+
+    <div class="bc-about-me">
+      Proudly serving Kitchener-Waterloo-Cambridge and all over Ontario.
+      Wheather you wan to BUY, SELL, LEASE and INVEST, I can help you all.<br><br>Getting YOU more for YOUR Real-Estate.
+    </div>
+
   </div>
 
-
-
-
-
-
+  <div class="contact-me-container">
+    <div class="row top-buffer">
+      <div class="col">
+        <a href="https://goo.gl/maps/vvy8qvX4M38NLnsx6">
+          <img src="images\icons\facebook.png" alt="map">
+        </a>
+      </div>
+      <div class="col">
+        <a href="tel:+16477084395">
+          <img src="images\icons\Instagram.png" alt="map">
+        </a>
+      </div>
+      <div class="col">
+        <a href="mailto:realtor.malav@gmail.com">
+          <img src="images\icons\Whatsapp.png" alt="map">
+        </a>
+      </div>
+      <div class="col">
+        <a href="mailto:realtor.malav@gmail.com">
+          <img src="images\icons\Tiktok.png" alt="map">
+        </a>
+      </div>
+    </div>
+  </div>
 
 
   <!--**************************************Bottom Container**************************************************-->

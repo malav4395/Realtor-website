@@ -397,3 +397,25 @@ a:hover {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+
+
+.bc-middle-container {
+  padding: 20px;
+}
+
+.bc-about-me{
+  padding: 0px 20px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.title h2 {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.title p {
+  color: #fff;
+  font-size: 1.5em;
+}
