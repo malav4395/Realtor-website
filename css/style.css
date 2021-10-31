@@ -399,7 +399,7 @@ a:hover {
 }
 
 .bc-social-container{
-  padding: 10px 20px; 
+  padding: 10px 20px;
 }
 
 .bc-middle-container {
@@ -410,7 +410,6 @@ a:hover {
   padding: 0px 20px;
   text-align: justify;
   text-justify: auto;
-  text-align-last: center;
 }
 
 .bc-button{
