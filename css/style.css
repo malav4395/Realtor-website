@@ -445,3 +445,8 @@ a:hover {
 .modal-body{
   text-align: left;
 }
+
+.bc-big-save-contact-button{
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
