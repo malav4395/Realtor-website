@@ -442,12 +442,6 @@ a:hover {
   margin:-20px;
 }
 
-.up-down{
-  position: relative;
-  animation: animate 5s infinite;
-}
-
-  @keyframes animate {
-    from {top: 0px;}
-    to {top: 10px;}
+.modal-body{
+  text-align: left;
 }
