@@ -459,7 +459,6 @@ a:hover {
 
 .bc-icon{
   padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
 .bc-icon:hover{
@@ -488,5 +487,9 @@ a:hover {
 .business-card img{
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 2%;
+  border-radius: 1.6%;
+}
+
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+  background-color: #003260 !important;
 }
