@@ -461,6 +461,26 @@ a:hover {
 }
 
 .bc-big-save-contact-button{
-  margin: 20px 0px;
+  margin: 15px 0px 0px;
   padding: 10px 0px;
+}
+
+.bc-bottom-container{
+  background-color: #003260;
+}
+
+.bc-review{
+  padding: 10px 20px;
+}
+
+.btn-light, .btn-light:hover {
+  padding: 0px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: auto;
+  line-height: 3rem;
+}
+
+.review-button{
+  width: 6rem;
 }
