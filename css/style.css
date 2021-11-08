@@ -398,19 +398,18 @@ a:hover {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-
 /* ------------------Business_card Elements------------------------- */
-.business-card{
+.business-card {
   padding: 5px 10px 15px 10px;
 }
 
-.business-card img{
+.business-card img {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 1.6%;
 }
 
-.business-card a{
+.business-card a {
   padding: 0px;
 }
 
@@ -422,17 +421,17 @@ a:hover {
   padding: 0px 20px 0px 20px;
 }
 
-.bc-social-container{
+.bc-social-container {
   padding: 10px 20px;
 }
 
-.bc-about-me{
+.bc-about-me {
   padding: 0px 20px;
   text-align: justify;
   text-justify: auto;
 }
 
-.bc-button{
+.bc-button {
   font-size: 1em;
 }
 
@@ -446,31 +445,30 @@ a:hover {
   font-size: 1.5em;
 }
 
-.bc-icon{
+.bc-icon {
   padding: 10px;
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
 }
 
-
-.bc-icon img{
+.bc-icon img {
   padding: 10px 30px;
   margin: -20px;
 }
 
-.modal-body{
+.modal-body {
   text-align: left;
 }
 
-.bc-big-save-contact-button{
+.bc-big-save-contact-button {
   margin: 15px 0px 0px;
   padding: 10px 0px;
 }
 
-.bc-bottom-container{
+.bc-bottom-container {
   background-color: #003260;
 }
 
-.bc-review{
+.bc-review {
   padding: 10px 20px;
 }
 
@@ -482,27 +480,28 @@ a:hover {
   line-height: 3rem;
 }
 
-.review{
+.review {
   width: 6rem;
 }
 
-.send-review{
+.send-review {
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
-.coldwell-logo{
+.coldwell-logo {
   width: 9rem;
   padding-top: 5px;
 }
 
-.social-bar{
+.social-bar {
   border-width: thick;
   border-color: red;
 }
 
-.social-bar a{
+.social-bar a {
   text-decoration: none;
 }
-.social-icon{
+
+.social-icon {
   padding-right: 20px;
 }
