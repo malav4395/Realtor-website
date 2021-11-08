@@ -447,7 +447,7 @@ a:hover {
 
 .bc-icon {
   padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .bc-icon img {
@@ -491,11 +491,6 @@ a:hover {
 .coldwell-logo {
   width: 9rem;
   padding-top: 5px;
-}
-
-.social-bar {
-  border-width: thick;
-  border-color: red;
 }
 
 .social-bar a {
