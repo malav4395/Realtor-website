@@ -11,6 +11,9 @@ TEL;type=CELL;type=VOICE;type=pref:+16477084395
 TEL;type=WORK;type=VOICE:+1 (519) 885-0200
 ADR;type=WORK;type=pref:;;83 Erb St W;Waterloo;ON;N2L6C2;Canada
 X-SOCIALPROFILE;type=facebook:https://www.facebook.com/realtormalav/
+X-SOCIALPROFILE;type=instagram;x-user="https://www.instagram.com/realtor_malav/":x-apple:https%3A//www.instagram.com/realtor_malav/
+X-SOCIALPROFILE;type=Tiktok;x-user="https://vm.tiktok.com/ZMeynsGHY/":x-apple:https%3A//vm.tiktok.com/ZMeynsGHY/
+X-SOCIALPROFILE;type=Zoom;x-user="https://us05web.zoom.us/j/3649789060?pwd=TVRJcTVIR3Q4a2V1bXFuUDJuL3hMZz09":x-apple:https%3A//us05web.zoom.us/j/3649789060%3Fpwd=TVRJcTVIR3Q4a2V1bXFuUDJuL3hMZz09
 item2.URL;type=pref:https://malavpanchal.ca/
 item2.X-ABLabel:_$!<HomePage>!$_
 URL;type=WORK:https://www.remaxtwincity.ca/
