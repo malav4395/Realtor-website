@@ -237,11 +237,22 @@ a:hover {
   padding-top: 80px;
 }
 
+@media screen and (max-width: 375px) {
+  #about-pic{
+    width: 95vw;
+  }
+}
+
+
 @media screen and (max-width: 828px) {
   .value-pic {
+    width: 95vw;
+  }
+  #about-pic{
     width: 100vw;
   }
 }
+
 
 /* ------------------Services page Elements------------------------- */
 .my-mission-container {
