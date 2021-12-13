@@ -351,6 +351,16 @@ a:hover {
   padding-bottom: 10px;
 }
 
+.bottom-container hr{
+  display: block;
+  width: 90%;
+  margin:auto;
+  height: 2px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .copyright {
   color: #eaf6f6;
   font-size: 0.75rem;
