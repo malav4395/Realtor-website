@@ -138,18 +138,6 @@ a:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 828px) {
-  .img-banner-fluid {
-    height: 70vh;
-    background-position: 50% 50%;
-  }
-
-  .maintxt {
-    font-size: 2.5rem;
-    width: 70%;
-  }
-}
-
 .myButton {
   background: #3D94F6;
   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
@@ -551,7 +539,7 @@ header.index-banner:before {
 
 header.masthead .post-heading h1,
 header.masthead .post-heading .h1 {
-  font-size: 3.25rem;
+  font-size: 2.25rem;
   color: #fff;
   line-height: 1.5;
 }
@@ -564,13 +552,13 @@ header.masthead .post-heading .subheading {
 }
 
 header.masthead .post-heading .subheading {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0.75rem 0 2rem;
 }
 
 header.masthead .post-heading .meta {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
   font-style: italic;
 }
@@ -581,8 +569,8 @@ header.masthead .post-heading .meta a {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
+    padding-top: 18rem;
+    padding-bottom: 18rem;
   }
 
 
