@@ -79,27 +79,11 @@ a:hover {
   padding-right: 30px;
 }
 
-.img-banner-fluid {
-  background-image: url("../images/CT_exterior_9_web.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #eaf6f6;
-  background-attachment: fixed;
-  background-position: center;
-  max-width: 100%;
-  max-height: auto;
-  height: 80vh;
-  opacity: 0.8;
-  padding: 50px;
-}
-
 .maintxt {
   font-family: 'Kaushan Script', cursive;
   color: #fff;
-  font-size: 4rem;
   background: rgb(1, 1, 1);
   background: rgba(0, 0, 0, 0.2);
-  width: 45%;
   padding: 10px;
   text-shadow: 1px 1px 10px #003260, 1px 1px 10px #ccc;
 }
@@ -534,10 +518,13 @@ a:hover {
 
 /* Buying_tips_html_elements */
 
+.mid-container{
+  margin-top: 3rem;
+}
+
 header.masthead {
   background-image: url("../images/CT_exterior_9_web.jpg");
   position: relative;
-  margin-bottom: 3rem;
   padding-top: calc(8rem + 57px);
   padding-bottom: 8rem;
   background: no-repeat center center;
