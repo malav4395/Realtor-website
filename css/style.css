@@ -83,7 +83,7 @@ a:hover {
   font-family: 'Kaushan Script', cursive;
   color: #fff;
   background: rgb(1, 1, 1);
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
   padding: 10px;
   text-shadow: 1px 1px 10px #003260, 1px 1px 10px #ccc;
 }
@@ -544,6 +544,10 @@ header.masthead:before {
   opacity: 0.5;
 }
 
+header.index-banner:before {
+  background-color: #212529;
+  opacity: 0.1;
+}
 
 header.masthead .post-heading h1,
 header.masthead .post-heading .h1 {
@@ -584,7 +588,7 @@ header.masthead .post-heading .meta a {
 
   header.masthead .post-heading h1,
   header.masthead .post-heading .h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   header.masthead .post-heading .subheading {
