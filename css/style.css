@@ -621,5 +621,21 @@ header.masthead .post-heading .meta a {
 
 .blog-p {
   text-align: justify;
+}
 
+.blog-p h2{
+  margin: 3rem 0 1rem 0;
+}
+
+.blog-p p{
+  font-size: 1.2rem;
+}
+
+.blog-p .caption {
+  font-size: 0.875rem;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 0.625rem;
+  text-align: center;
 }
