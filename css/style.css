@@ -533,20 +533,6 @@ a:hover {
 
 
 /* Buying_tips_html_elements */
-/* .masthead {
-  background-image: url("../images/CT_exterior_9_web.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #eaf6f6;
-  background-attachment: fixed;
-  background-position: center;
-  max-width: 100%;
-  max-height: auto;
-  height: 80vh;
-  opacity: 0.8;
-  padding: 50px;
-} */
-
 
 header.masthead {
   background-image: url("../images/CT_exterior_9_web.jpg");
@@ -574,7 +560,7 @@ header.masthead:before {
 
 header.masthead .post-heading h1,
 header.masthead .post-heading .h1 {
-  font-size: 5.25rem;
+  font-size: 3.25rem;
   color: #fff;
   line-height: 1.5;
 }
@@ -587,7 +573,7 @@ header.masthead .post-heading .subheading {
 }
 
 header.masthead .post-heading .subheading {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 0.75rem 0 2rem;
 }
