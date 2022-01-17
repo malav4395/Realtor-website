@@ -611,3 +611,8 @@ header.masthead .post-heading .meta a {
   padding: 0.625rem;
   text-align: center;
 }
+
+.stats{
+  padding: 0px;
+  margin: 0px;
+}
