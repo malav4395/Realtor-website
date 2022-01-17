@@ -80,11 +80,10 @@ a:hover {
 }
 
 .maintxt {
-  font-family: 'Kaushan Script', cursive;
   color: #fff;
   background: rgb(1, 1, 1);
   background: rgba(0, 0, 0, 0.4);
-  padding: 10px;
+  padding: 14px;
   text-shadow: 1px 1px 10px #003260, 1px 1px 10px #ccc;
 }
 
