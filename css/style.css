@@ -519,6 +519,7 @@ header.masthead {
   background-color: #6c757d;
   background-size: cover;
   background-attachment: scroll;
+  text-align: left;
 }
 
 header.masthead:before {
@@ -554,7 +555,7 @@ header.masthead .post-heading .subheading {
 header.masthead .post-heading .subheading {
   font-size: 1rem;
   font-weight: 600;
-  margin: 0.75rem 0 2rem;
+  margin: 0.75rem 0 0.5rem 0 ;
 }
 
 header.masthead .post-heading .meta {
@@ -569,17 +570,23 @@ header.masthead .post-heading .meta a {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: 18rem;
-    padding-bottom: 18rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
   }
 
 
   header.masthead .post-heading h1,
   header.masthead .post-heading .h1 {
-    font-size: 4rem;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
   }
 
   header.masthead .post-heading .subheading {
+    font-family: 'Open Sans',
+    sans-serif;
+    font-weight: 400;
     font-size: 1.875rem;
   }
 }
