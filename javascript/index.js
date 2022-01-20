@@ -26,7 +26,7 @@ function cal_width_height() {
   var h = $(window).height();
   return {
     width: ~~w-30,
-    height: ~~h-180,
+    height: ~~h-200,
   }
 }
 
