@@ -510,7 +510,7 @@ a:hover {
 }
 
 header.masthead {
-  background-image: url("../images/CT_exterior_9_web.jpg");
+  /* background-image: url("../images/CT_exterior_9_web.jpg"); */
   position: relative;
   padding-top: calc(8rem + 57px);
   padding-bottom: 8rem;
