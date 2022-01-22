@@ -1,6 +1,9 @@
 $(document).ready(function () {
   var values = cal_width_height();
   resize_stat_iframe(values.width, values.height);
+
+  var sizes = cal_width_height_on_contact_us();
+  cal_width_height_on_contact_us(sizes.width, sizes.height)
 });
 
 $(window).resize(function () {
