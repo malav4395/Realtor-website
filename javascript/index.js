@@ -1,11 +1,6 @@
-alert("hello");
-$(".hubspot-link__container.sproket").css("display: none", "color: red");  
-
 $(document).ready(function () {
   var values = cal_width_height();
   resize_stat_iframe(values.width, values.height);
-
-  $(".hubspot-link__container.sproket").css("display: none","color: red");  
 });
 
 
