@@ -621,3 +621,8 @@ header.masthead .post-heading .meta a {
   padding: 0px;
   margin: 0px;
 }
+
+.hubspot-link__container .sproket{
+  display: none;
+
+}
