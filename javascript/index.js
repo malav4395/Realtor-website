@@ -6,6 +6,9 @@ $(document).ready(function () {
 $(window).resize(function () {
   var values = cal_width_height();
   resize_stat_iframe(values.width, values.height);
+
+  var sizes = cal_width_height_on_contact_us();
+  cal_width_height_on_contact_us(sizes.width, sizes.height)
 });
 
 
@@ -19,6 +22,7 @@ function resize_stat_iframe(w, h) {
   $("#days-on-market").width(w).height(h);
   $("#days-on-market").attr("src", "https://itso.stats.showingtime.com/infoserv/s-v1/raJZ-lYT?w=" + w + "&h=" + h);
   $("#kwar-stat").width(w).height(h - 50);
+  
 }
 
 function cal_width_height() {
@@ -30,4 +34,16 @@ function cal_width_height() {
   }
 }
 
+function cal_width_height_on_contact_us(){
+  var w = $('#contact-us-row').width();
+  var h = $(window).height();
+  return {
+    width: ~~w,
+    height: ~~h,
+  }
+}
 
+
+function resize_stat_iframe(w, h) { 
+  $("$map-on-contact-us").width(w).height(h);
+}
