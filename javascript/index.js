@@ -1,17 +1,11 @@
 $(document).ready(function () {
   var values = cal_width_height();
   resize_stat_iframe(values.width, values.height);
-
-  var sizes = cal_width_height_on_contact_us();
-  cal_width_height_on_contact_us(sizes.width, sizes.height)
 });
 
 $(window).resize(function () {
   var values = cal_width_height();
   resize_stat_iframe(values.width, values.height);
-
-  var sizes = cal_width_height_on_contact_us();
-  cal_width_height_on_contact_us(sizes.width, sizes.height)
 });
 
 
@@ -35,18 +29,4 @@ function cal_width_height() {
     width: ~~w-30,
     height: ~~h-200,
   }
-}
-
-function cal_width_height_on_contact_us(){
-  var w = $('#contact-us-row').width();
-  var h = $(window).height();
-  return {
-    width: ~~w,
-    height: ~~h,
-  }
-}
-
-
-function resize_stat_iframe(w, h) { 
-  $("$map-on-contact-us").width(w).height(h);
 }
