@@ -486,9 +486,33 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
+.malav-logo{
+  width: 190px;
+}
+
 .remax-logo {
-  width: 15rem;
-  padding-top: 5px;
+  width: 15%;
+}
+
+@media screen and (max-width: 990px) {
+  .remax-logo {
+    width: 25%;
+  }
+
+  .malav-logo {
+    width: 150px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .remax-logo {
+    width: 35%;
+  }
+
+  .malav-logo {
+    width: 140px;
+  }
 }
 
 .social-bar a {
