@@ -233,7 +233,7 @@ a:hover {
 .my-mission-container .my-mission-container-bg {
   position: static;
   z-index: -1;
-  background-image: url("../images/agreement.jpg");
+  background-image: url("../images/agreement.webp");
   background-size: cover;
   background-position: 0 50%;
   -webkit-filter: brightness(70%);
