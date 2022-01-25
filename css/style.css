@@ -21,7 +21,7 @@ body {
 
 h1 {
   font-family: 'Kaushan Script', cursive;
-  color: #003260;
+  color: #003260!important;
 }
 
 h2 {
@@ -611,7 +611,7 @@ header.masthead .post-heading .meta a {
 /* ************Review page elements********** */
 
 .review-container{
-  background-color: rgb(232, 242, 245);
+  background-color: rgba(206, 211, 212, 0.952);
   padding: 50px 40px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -625,7 +625,7 @@ header.masthead .post-heading .meta a {
 }
 
 .fa-heart {
-  color: rgba(255, 230, 0, 0.959);
+  color: rgba(255, 0, 0, 0.959);
   font-size: 30px
 }
 
@@ -644,12 +644,14 @@ header.masthead .post-heading .meta a {
 
 .active-star {
   color: #FBC02D;
-  margin-bottom: 8px
+  margin-bottom: 8px;
+  padding: 0px;
 }
 
 .active-star:hover {
   color: #F9A825;
-  cursor: pointer
+  cursor: pointer;
+  padding: 0px;
 }
 
 .profile {
@@ -689,8 +691,12 @@ header.masthead .post-heading .meta a {
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
-  border: 3px solid #1010ca;
-  color: #1010ca !important
+  border: 3px solid #003260;
+  color: #003260 !important
+}
+
+.review-mid-container .fa{
+  margin: 0px;
 }
 
 @media(max-width: 575.5px) {
