@@ -108,3 +108,20 @@ a:hover {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+.malav-logo {
+  width: 190px;
+}
+
+
+@media screen and (max-width: 990px) {
+  .remax-logo {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .remax-logo {
+    width: 35%;
+  }
+}
