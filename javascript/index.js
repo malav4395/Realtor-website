@@ -49,7 +49,7 @@ function cal_width_height() {
   var w = $('#blog-p').width();
   var h = $(window).height();
   return {
-    width: ~~w-30,
+    width: ~~w-10,
     height: ~~h-200,
   }
 }
