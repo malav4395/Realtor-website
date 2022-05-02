@@ -583,6 +583,7 @@ header.masthead .post-heading .meta a {
 .blog-p h2 {
   margin: 3.5rem 0 1.5rem 0;
   text-align: left;
+  font-size: 3.5vh;
 }
 
 .blog-p p {
