@@ -15,40 +15,38 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-207251914-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-207251914-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-        gtag('js', new Date());
-        gtag('config', 'UA-207251914-1');
-    </script>
+    gtag('js', new Date());
+    gtag('config', 'UA-207251914-1');
+  </script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Real Estate by Malav</title>
-    <link rel="icon" href="images\Malav.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Real Estate by Malav</title>
+  <link rel="icon" href="images\Malav.ico">
 
-    <!-- Bootstrap 5 CSS link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap 5 CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- This link is for google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Sacramento&family=Slabo+27px&display=swap"
-        rel="stylesheet">
+  <!-- This link is for google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Sacramento&family=Slabo+27px&display=swap" rel="stylesheet">
 
-    <!-- This link is to use Social Media account logos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- This link is to use Social Media account logos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Including CSS file at the bottom so that it takes preceedence over bootstrap styling -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Including CSS file at the bottom so that it takes preceedence over bootstrap styling -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 
@@ -56,245 +54,413 @@
 
 <body>
 
-    <!--**********************************Facebook Messenger*********************************************-->
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
+  <!--**********************************Facebook Messenger*********************************************-->
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
 
-    <script>
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "108068657814448");
-        chatbox.setAttribute("attribution", "biz_inbox");
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "108068657814448");
+    chatbox.setAttribute("attribution", "biz_inbox");
 
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v11.0'
-            });
-        };
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml: true,
+        version: 'v11.0'
+      });
+    };
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-
-    <!--**************************************Top Container**************************************************-->
-    <div class="top-container">
-        <nav class="navbar fixed-top navbar-light navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand d-flex justify-content-lg-start ps-5" href="index.html">
-                    <img class="malav-logo" src="images\Malav_Logo.png" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-lg-end pe-2" id="navbarSupportedContent">
-                    <ul class="navbar-nav d-flex align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Buyers</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="buying_tips.html">Buying Tips</a></li>
-                                <li><a class="dropdown-item" href="things_to_avoid.html">Things to avoid</a></li>
-                                <li><a class="dropdown-item" href="home_maintenance.html">Home Maintenance</a></li>
-                                <li><a class="dropdown-item" href="first_time_home_buyer.html">First time Home Buyer</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Sellers</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item active" href="home_Selling_tips.html">Home Selling Tips</a>
-                                </li>
-                                <li><a class="dropdown-item" href="things_to_avoid.html">Things to avoid</a></li>
-                                <li><a class="dropdown-item" href="home_staging.html">Importance of Home Staging</a>
-                                </li>
-                                <li><a class="dropdown-item" href="evalution.html">Home Evaluation</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="About_Me\about.html"
-                                role="button" aria-expanded="false">About Me</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="social_media.html">Social Media Presence</a></li>
-                                <li><a class="dropdown-item" href="hire_me.html">Why Hire Me</a></li>
-                                <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
-                                <li><a class="dropdown-item" href="mortgage_calculator.html">Mortgage Calculator</a></li>
-                                <li><a class="dropdown-item" href="services.html">Services</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="market_update.html">Market Update</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                        <li class="nav-item ps-5 pe-2">
-                            <a class="nav-link nav-phone" href="tel:+16477084395">647-708-4395</a>
-                        </li>
-                        <li class="nav-item ps-3 pe-3">
-                            <div class="row d-sm-inline-flex">
-                                <div class="col p-0 mx-0">
-                                    <a href="https://www.facebook.com/realtormalav/" class="fa fa-facebook"></a>
-                                </div>
-                                <div class="col p-0 mx-0">
-                                    <a href="mailto:realtor.malav@gmail.com" class="fa fa-envelope"></a>
-                                </div>
-                                <div class="col p-0 mx-0">
-                                    <a href="https://www.instagram.com/realtor_malav/" class="fa fa-instagram"></a>
-                                </div>
-                                <div class="col p-0 mx-0">
-                                    <a href="https://api.whatsapp.com/send?phone=16477084395&fbclid=IwAR2XTAOAlZdwc0sTbDoxU7Dr_Fnbr5B_zatjztiW1S6z01JpPQ6BpVzjFMA"
-                                        class="fa fa-whatsapp"></a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <header class="masthead" style="background-image: url('images/selling-tips.webp')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-11 col-lg-9 col-xl-8">
-                        <div class="post-heading">
-                            <h1>Home Selling Tips!</h1>
-                            <h2 class="subheading">Get most money out of your Home</h2>
-                            <span class="meta">
-                                Posted by
-                                <a href="business_card.html">Malav Panchal</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-    </div>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
 
-    <!--**************************************Middle Container**************************************************-->
-    <div class="mid-container">
-        <article class="mb-4">
-            <div class="container px-5 px-lg-6">
-                <div class="row gx-8 gx-lg-7 justify-content-center">
-                    <div class="blog-p col-md-11 col-lg-9 col-xl-8">
-                        <p>Never in all their history have men been able truly to conceive of the world as one: a single
-                            sphere, a
-                            globe, having the qualities of a globe, a round earth in which all the directions eventually
-                            meet, in
-                            which there is no center because every point, or none, is center — an equal earth which all
-                            men occupy as
-                            equals. The airman's earth, if free men make it, will be truly round: a globe in practice,
-                            not in theory.
-                        </p>
-                        <p>Science cuts two ways, of course; its products can be used for both good and evil. But
-                            there's no turning
-                            back from science. The early warnings about technological dangers also come from science.
-                        </p>
-                        <p>What was most significant about the lunar voyage was not that man set foot on the Moon but
-                            that they set
-                            eye on the earth.</p>
-                        <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty,
-                            become her
-                            protectors rather than her violators. That's how I felt seeing the Earth for the first time.
-                            I could not
-                            help but love and cherish her.</p>
-                        <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more
-                            who will,
-                            the experience most certainly changes your perspective. The things that we share in our
-                            world are far more
-                            valuable than those which divide us.</p>
-                        <h2 class="section-heading">The Final Frontier</h2>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and
-                            literally, it is a
-                            task to occupy the generations. And no matter how much progress one makes, there is always
-                            the thrill of
-                            just beginning.</p>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and
-                            literally, it is a
-                            task to occupy the generations. And no matter how much progress one makes, there is always
-                            the thrill of
-                            just beginning.</p>
-                        <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of
-                            tomorrow.
-                            Science has not yet mastered prophecy. We predict too much for the next year and yet far too
-                            little for
-                            the next ten.</blockquote>
-                        <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men.
-                            It is a
-                            historical process which mankind is carrying out in accordance with the natural laws of
-                            human development.
-                        </p>
-                        <h2 class="section-heading">Reaching for the Stars</h2>
-                        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to
-                            the size of a
-                            marble, the most beautiful you can imagine. That beautiful, warm, living object looked so
-                            fragile, so
-                            delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this
-                            has to change
-                            a man.</p>
-                        <a href="#!"><img class="img-fluid" src="images\invest.webp" alt="..." /></a>
-                        <span class="caption text-muted">To go places and do things that have never been done before –
-                            that’s what
-                            living is all about.</span>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
-                            mission: to
-                            explore strange new worlds, to seek out new life and new civilizations, to boldly go where
-                            no man has gone
-                            before.</p>
-                        <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a
-                            fundamental
-                            truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-                        <p>
-                            Placeholder text by
-                            <a href="http://spaceipsum.com/">Space Ipsum</a>
-                            &middot; Images by
-                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </div>
-
-
-
-    <!--**************************************Bottom Container**************************************************-->
-    <div class="bottom-container">
-        <a href="https://www.remaxtwincity.ca/agent/malav-panchal">
-            <img class="remax-logo" src="images\remax-logo.png" alt="remax-logo">
+  <!--**************************************Top Container**************************************************-->
+  <div class="top-container">
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex justify-content-lg-start ps-5" href="index.html">
+          <img class="malav-logo" src="images\Malav_Logo.png" alt="logo">
         </a>
-        <hr>
-        <a href="https://www.facebook.com/realtormalav/" class="fa fa-facebook"></a>
-        <a href="mailto:realtor.malav@gmail.com" class="fa fa-envelope"></a>
-        <a href="https://www.instagram.com/realtor_malav/" class="fa fa-instagram"></a>
-        <a href="https://www.snapchat.com/add/malav_panchal" class="fa fa-snapchat-ghost"></a>
-        <a href="tel:+16477084395" class="fa fa-mobile"></a>
-        <p class="copyright">© 2022 Malav Panchal.</p>
-    </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-lg-end pe-2" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Buyers</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="buying_tips.html">Buying Tips</a></li>
+                <li><a class="dropdown-item" href="things_to_avoid.html">Things to avoid</a></li>
+                <li><a class="dropdown-item" href="home_maintenance.html">Home Maintenance</a></li>
+                <li><a class="dropdown-item" href="first_time_home_buyer.html">First time Home Buyer</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Sellers</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="home_Selling_tips.html">Home Selling Tips</a>
+                </li>
+                <li><a class="dropdown-item" href="things_to_avoid.html">Things to avoid</a></li>
+                <li><a class="dropdown-item" href="home_staging.html">Importance of Home Staging</a>
+                </li>
+                <li><a class="dropdown-item" href="evalution.html">Home Evaluation</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="About_Me\about.html" role="button" aria-expanded="false">About Me</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="social_media.html">Social Media Presence</a></li>
+                <li><a class="dropdown-item" href="hire_me.html">Why Hire Me</a></li>
+                <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
+                <li><a class="dropdown-item" href="mortgage_calculator.html">Mortgage Calculator</a></li>
+                <li><a class="dropdown-item" href="services.html">Services</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="market_update.html">Market Update</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item ps-5 pe-2">
+              <a class="nav-link nav-phone" href="tel:+16477084395">647-708-4395</a>
+            </li>
+            <li class="nav-item ps-3 pe-3">
+              <div class="row d-sm-inline-flex">
+                <div class="col p-0 mx-0">
+                  <a href="https://www.facebook.com/realtormalav/" class="fa fa-facebook"></a>
+                </div>
+                <div class="col p-0 mx-0">
+                  <a href="mailto:realtor.malav@gmail.com" class="fa fa-envelope"></a>
+                </div>
+                <div class="col p-0 mx-0">
+                  <a href="https://www.instagram.com/realtor_malav/" class="fa fa-instagram"></a>
+                </div>
+                <div class="col p-0 mx-0">
+                  <a href="https://api.whatsapp.com/send?phone=16477084395&fbclid=IwAR2XTAOAlZdwc0sTbDoxU7Dr_Fnbr5B_zatjztiW1S6z01JpPQ6BpVzjFMA" class="fa fa-whatsapp"></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead" style="background-image: url('images/selling-tips.webp')">
+      <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-11 col-lg-9 col-xl-8">
+            <div class="post-heading">
+              <h1>Home Selling Tips!</h1>
+              <h2 class="subheading">Get most money out of your Home</h2>
+              <span class="meta">
+                Posted by
+                <a href="business_card.html">Malav Panchal</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+  <!--**************************************Middle Container**************************************************-->
+  <div class="mid-container">
+    <article class="mb-4">
+      <div class="container px-5 px-lg-6">
+        <div class="row gx-8 gx-lg-7 justify-content-center">
+          <div class="blog-p col-md-11 col-lg-9 col-xl-8">
+            <p>Selling a home can be complicated. There’s lots to do, from preparing
+              the property for sale, to marketing the listing, to the negotiations and
+              paperwork. If you’re ready to embark on the home selling process, or just
+              get a head start on planning, take your first step with this Home
+              Selling article. <br><br>
+              This is a resource to help you navigate through the home
+              selling experience, from <b>“listed”</b> to <b>“sold.”</b><br><br>
+            </p>
+
+            <img class="img-fluid" src="images\seller_do_dont.png" width="100%" alt="Home-seller-glossary" />
+            <h2 class="section-heading">Seller Dos and Donts</h2>
+            <h3 class="section-heading"><b>DO</b></h3>
+            <p><b>Clear Out & Clean Up</b><br>
+              You want house-hunters to imagine your house as
+              their own, so clear out the clutter. Remove excess
+              home décor, pack up the collectibles, put away the
+              kids’ toys, and eliminate pet evidence. You’ll also
+              want to clean everything, from the baseboards to the
+              ceilings and every spot in between. In addition, keep
+              the house at a comfortable room temperature.<br><br>
+              <b>Update & Upkeep</b><br>
+              Impress house-hunters with simple yet visually
+              appealing updates. Inside, consider swapping out old
+              light fixtures, painting dark walls lighter, and replacing
+              dingy carpets. Outside, keep up with your yard work:
+              trim bushes and trees, keep the grass cut or the
+              driveway shoveled, and plant flowers or add greenery
+              for a flattering first impression.<br><br>
+              <b>Organize & Categorize</b><br>
+              Everything has a place. Arrange furnishings to
+              complement the size, traffic flow and natural light of
+              the room. If you’re not sure, consult a professional
+              stager. You’ll also want to organize all of your
+              paperwork: inspection reports, property disclosures,
+              appliance manuals, etc. Then, categorize them in an
+              easy-to-access binder for quick reference.<br><br>
+              <b>Respect & Respond</b><br>
+              You may be partial to your home, but not everyone
+              will be. Respect professionals’ (appraiser, inspector,
+              stager, etc.) opinions on what changes can be made
+              to make your home appeal to more people. Don’t be
+              offended by a low offer; respond to the buyer and
+              let them know the offer was too low but that you are
+              serious about accepting a better one.<br><br>
+            </p>
+
+            <h3 class="section-heading"><b>DON'T</b></h3>
+            <p><b>Fall Behind</b><br>
+              Selling your house is hard work. Don’t slack, stay
+              up-to-date on your responsibilities. Keep your home
+              clean and the yard well-maintained throughout the
+              process. Once you find a buyer, don’t fall behind on
+              bills; keep paying your mortgage and utility bills on
+              time so you don’t have extra costs to cover at closing.<br><br>
+              <b>Get Ahead</b><br>
+              It takes time to sell a house in today’s market.
+              Don’t try to get ahead of the trend and enter into
+              negotiations with buyers who aren’t pre-approved
+              for a mortgage. Don’t price your home excessively,
+              listen to your agent and price it according to market
+              conditionss. Pricing it too high can keep it on the
+              market and make it appear unattractive, flawed or
+              stale.<br><br>
+              <b>Hide or Hover</b><br>
+              Your house needs to be available, you do not. Don’t
+              make your house unavailable for showings by
+              requesting a day’s notice or not answering the phone
+              or email. Your home needs to be ready when buyers
+              are. Don’t hover around during showings. Buyers like
+              their space and may feel awkward or uncomfortable
+              sharing their thoughts with you present.<br><br>
+              <b>Do it All or Leave it All</b><br>
+              Working with a real estate agent can be invaluable.
+              Why try to do it all when you can hire a professional
+              agent with the experience and expertise to do it for
+              you? However, when you hire a real estate agent,
+              don’t leave it all up to them. You’ll have a number
+              of personal responsibilities to manage to help make
+              your home selling experience successful.<br><br>
+            </p>
+
+            <h3 class="section-heading"><b>CLEAN UP THE CLUTTER</b></h3>
+            <p>
+              If you are listing your house and getting it ready for
+              showings, clean up the clutter. A good way to start
+              is to go through everything you don’t use on a daily
+              basis and create three piles: pack it, donate it, and
+              junk it.<br><br>
+              <b>Pack It</b><br>
+              For the items you’re packing, go online and search
+              “portable storage and moving containers.” These
+              convenient containers can be rented monthly and
+              take the trip out of the traditional storage unit. They
+              are delivered to your house, you pack it up, and
+              they’re picked up and stored for you until you’re
+              ready to add more – or unload it at your new house!<br><br>
+              <b>Donate It</b><br>
+              For the items you’re donating, a number of charities
+              now offer scheduled donation pick-ups. Visit your
+              favorite charity’s website to learn when they’ll be in
+              your neighbourhood. <br><br>
+              <b>Junk It</b><br>
+              For the items you’re dumping, first make sure
+              they can be dumped. Certain items need to be
+              recycled or properly disposed of. Check with
+              your municipality website to find a convenient
+              and affordable way to properly dispose of certain
+              materials. If what you have truly can be junked,
+              consider renting a dumpster for large quantities.<br><br>
+            </p>
+
+            <img class="img-fluid" src="images\Home-seller-glossary.png" width="100%" alt="Home-seller-glossary" />
+            <h2 class="section-heading">Home Seller’s Glossary</h2>
+            <p>1. <b>Asking Price:</b> The price that the seller has
+              agreed to list their property for. The asking price
+              is different from the selling price, which is the
+              final price that has been agreed upon by the
+              buyer and seller<br> <br>
+
+              2. <b>Balanced Market:</b> In a balanced market, there is an
+              equal balance of buyers and sellers in the market,
+              which means reasonable offers are often accepted
+              by sellers, and homes sell within a reasonable
+              amount of time and prices remain stable.<br><br>
+
+              3. <b>Bridge Financing:</b> A short-term loan designed
+              to “bridge” the gap for homebuyers who have
+              purchased their new home before selling their
+              existing home. This type of financing is common
+              in a seller’s market, allowing homebuyers to
+              purchase without having to sell first.<br><br>
+
+              4. <b>Buyer’s Market:</b> In a buyer’s market, there are more
+              homes on the market than there are buyers, giving
+              the limited number of buyers more choice and
+              greater negotiating power. Homes may stay on the
+              market longer, and prices can be stable or dropping.<br><br>
+
+              5. <b>Closing:</b> This is the last step of the real estate
+              transaction, once all the offer conditions outlined
+              in the Agreement of Purchase and Sale have been
+              met and ownership of the property is transferred
+              to the buyer. Once the closing period has passed,
+              the keys are exchanged on the closing date
+              outlined in the offer.<br><br>
+
+              6. <b>Chattels:</b> Unattached items in the home that
+              can be removed without doing any damage
+              to the property, such as curtains, but not the
+              curtain rods since they are physically attached
+              to the home. Chattels are usually not included
+              with the home purchase, unless specified in the
+              Agreement of Purchase and Sale.<br><br>
+
+              7. <b>Conditional Offer:</b> When the sale of the home
+              hinges on predetermined conditions, such as
+              “conditional on financing” or “conditional on a
+              satisfactory home inspection.” If the conditions
+              are not met, the buyer can back out of the deal.<br><br>
+
+              8. <b> Counteroffer:</b> When the original offer to
+              purchase a home is rejected by the seller, the
+              seller can counteroffer with adjustments, usually
+              to the price or terms of the purchase, such as the
+              closing date<br><br>
+
+              9. <b>Curb Appeal:</b> The appeal of a home when
+              viewed from the curb. Curb appeal includes the
+              home’s exterior, front yard, and anything else
+              that’s visible from the street.<br><br>
+
+              10. <b> Current Market Assessment:</b> A CMA (Current
+              Market Assessment) is provided by your real
+              estate agent during the listing process and
+              is complimentary. This report assists with
+              determining the asking price of the home, using
+              current housing market information such as supply
+              and demand, seasonality, home information like
+              location, age, square footage and more.<br><br>
+
+              11. <b> Fixtures:</b> Items that are physically attached to
+              the home and require tools to remove. Fixtures
+              are included as part of the purchase. Examples of
+              fixtures include ceiling lights, cabinet hardware and
+              appliances. If the seller plans to take any fixtures
+              with them when they move, either remove them
+              prior to listing the home, or be sure to specify the
+              fixtures in the Agreement of Purchase and Sale.<br><br>
+
+              12. <b>FSBO:</b> Acronym for “For Sale By Owner,”
+              meaning the seller hasn’t retained the services
+              of a real estate agent or broker to assist with the
+              sale of their home. By virtue of the FSBO, the
+              seller will avoid paying the real estate agent’s
+              commission fee, which is split between the listing
+              and buying agent.<br><br>
+
+              13. <b>Home Value Estimator:</b> A home value estimator
+              is a tool, typically found online, that helps home
+              sellers estimate the value of their property. The
+              result is an estimate and different from a detailed
+              property assessment provided by a Realtor. <br><br>
+
+              14. <b>List-To-Sale-Price Ratio:</b> The difference between
+              the listing price of a home and the final selling price,
+              expressed as a percentage. If the list-to-sale-price
+              ratio is more than 100%, the home sold over asking.
+              If it is below 100%, the home sold under asking<br><br>
+
+              15. <b>MLS:</b> The Multiple Listing Service, commonly
+              referred to as MLS, is a real estate selling system
+              operated jointly by real estate Boards and
+              Associations across Canada<br><br>
+
+              16. <b>Offer:</b> An offer is a legal agreement to purchase
+              a home. An offer can be conditional on a number
+              of factors, commonly conditional on financing
+              and a home inspection. If the conditions are not
+              met, the buyer can cancel their offer..<br><br>
+
+              17. <b>Porting:</b> Transferring your mortgage (and
+              the existing interest rate and terms) from one
+              property to another.<br><br>
+
+              18. <b> Seller’s Market::</b> In a seller’s market, there are
+              more buyers than there are homes for sale. With
+              fewer homes on the market and more buyers,
+              homes sell quickly in a seller’s market. Prices of
+              homes are likely to increase, and there are more
+              likely to be multiple offers on a home. Multiple
+              offers give the seller negotiating power, and
+              conditional offers may be rejected.<br><br>
+
+              19. <b>Staging:</b> Preparing a home for sale to
+              appeal to a wide range of homebuyers. The
+              staging process often includes decluttering,
+              depersonalizing, deep-cleaning, and minor
+              updates such as painting and rearranging
+              furniture.<br><br>
+
+              20. <b> Virtual Deals:</b> The home-buying process
+              completed by means of technology in place of
+              face-to-face contact. Some common technology
+              tools include 360 home tours and video
+              showings, video conference calls, e-documents,
+              e-signatures and e-transfers.<br><br>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+
+
+  <!--**************************************Bottom Container**************************************************-->
+  <div class="bottom-container">
+    <a href="https://www.remaxtwincity.ca/agent/malav-panchal">
+      <img class="remax-logo" src="images\remax-logo.png" alt="remax-logo">
+    </a>
+    <hr>
+    <a href="https://www.facebook.com/realtormalav/" class="fa fa-facebook"></a>
+    <a href="mailto:realtor.malav@gmail.com" class="fa fa-envelope"></a>
+    <a href="https://www.instagram.com/realtor_malav/" class="fa fa-instagram"></a>
+    <a href="https://www.snapchat.com/add/malav_panchal" class="fa fa-snapchat-ghost"></a>
+    <a href="tel:+16477084395" class="fa fa-mobile"></a>
+    <p class="copyright">© 2022 Malav Panchal.</p>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
